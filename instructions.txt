@@ -1,0 +1,18 @@
+OBJECTIVE: Rotate and move each falling Tetromino
+           to complete horizontal lines.
+     - If a line is completed (no empty spaces),
+        it will disappear and a point per line will be
+        added to your score. Every 20 lines cleared, 
+        the block will fall faster.
+     - If a Tetromino cannot fall because the blocks
+        have been built up too high, the game will end
+        and a reset button will appear to restart the game.
+How to move pieces:
+     - Right arrow key moves the piece to the right.
+     - Left arrow key moves the piece to the left.
+     - Up arrow key drops the block as far as it can fall.
+     - Down arrow key increases the falling speed (while pressed).
+     - Space bar rotates the piece (clockwise).
+     - "S" switches the current block with the next block (can't switch back
+        until the next block comes into play);
+     - "P" pauses the game.
